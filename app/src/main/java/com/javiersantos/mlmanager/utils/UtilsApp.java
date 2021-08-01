@@ -236,7 +236,6 @@ public class UtilsApp {
      */
     public static void setAppHidden(Context context, FloatingActionButton fabHide, Boolean isHidden) {
         if (isHidden) {
-
             fabHide.setTitle(context.getResources().getString(R.string.action_unhide));
             fabHide.setIcon(R.drawable.ic_visibility_white);
         } else {

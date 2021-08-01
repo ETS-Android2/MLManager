@@ -58,8 +58,8 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     private void setScreenElements() {
-        TextView header = (TextView) findViewById(R.id.header);
-        TextView appNameVersion = (TextView) findViewById(R.id.app_name);
+        TextView header = findViewById(R.id.header);
+        TextView appNameVersion = findViewById(R.id.app_name);
         CardView about_1 = (CardView) findViewById(R.id.about_1);
         CardView about_2 = (CardView) findViewById(R.id.about_2);
         CardView about_googleplay = (CardView) findViewById(R.id.about_googleplay);
