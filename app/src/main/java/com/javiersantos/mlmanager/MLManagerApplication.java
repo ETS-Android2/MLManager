@@ -3,7 +3,7 @@ package com.javiersantos.mlmanager;
 import android.app.Application;
 
 import com.javiersantos.mlmanager.utils.AppPreferences;
-import com.mikepenz.google_material_typeface_library.GoogleMaterial;
+//import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.Iconics;
 
 public class MLManagerApplication extends Application {

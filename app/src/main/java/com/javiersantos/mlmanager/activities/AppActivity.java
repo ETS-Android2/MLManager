@@ -163,7 +163,7 @@ public class AppActivity extends AppCompatActivity {
                         startActivity(intent);
                     } catch (NullPointerException e) {
                         e.printStackTrace();
-                        UtilsDialog.showSnackbar(activity, String.format(getResources().getString(R.string.dialog_cannot_open), appInfo.getName()), null, null, 2).show();
+                        UtilsDialog.showSnackbar(activity, String.format(getResources().getString(R.string.dialog_cannot_open), appInfo.getName()), null, null, 2) ;
                     }
                 }
             });

@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 
 import com.javiersantos.mlmanager.MLManagerApplication;
@@ -78,7 +79,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
         prefLicense.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                startActivity(new Intent(context, LicenseActivity.class));
+//                startActivity(new Intent(context, LicenseActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.fade_back);
                 return false;
             }
