@@ -16,7 +16,7 @@ import android.os.Environment;
 import android.support.v4.content.ContextCompat;
 import android.view.MenuItem;
 
-import com.getbase.floatingactionbutton.FloatingActionButton;
+import 	com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.javiersantos.mlmanager.AppInfo;
 import com.javiersantos.mlmanager.MLManagerApplication;
 import com.javiersantos.mlmanager.R;
@@ -236,6 +236,7 @@ public class UtilsApp {
      */
     public static void setAppHidden(Context context, FloatingActionButton fabHide, Boolean isHidden) {
         if (isHidden) {
+
             fabHide.setTitle(context.getResources().getString(R.string.action_unhide));
             fabHide.setIcon(R.drawable.ic_visibility_white);
         } else {

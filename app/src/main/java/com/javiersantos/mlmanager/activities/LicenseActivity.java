@@ -5,7 +5,6 @@ import android.os.Bundle;
 import com.javiersantos.mlmanager.R;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
-import com.mikepenz.aboutlibraries.ui.LibsActivity;
 
 public class LicenseActivity extends LibsActivity {
 
